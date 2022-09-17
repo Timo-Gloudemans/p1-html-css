@@ -9,27 +9,60 @@
 </head>
 
 <body>
-    <form>
-        <label for="Voornaam"> Voornaam</label>
-        <input type="text" id="Voornaam" name="Voornaam"><br>
-
-        <label for="Achternaam"> Achternaam</label>
-        <input type="text" id="Achternaam" name="Achternaam"><br>
-
-        Man <input type="radio" name="Geslacht" value="" checked="checked"> Vrouw <input type="radio" name="Geslacht"><br>
-
-        <label for="Aders"> Adres</label>
-        <input type="text" id="Adres" name="Adres"><br>
-
-        <label for="Stad">Stad</label>
-        <input type="text" id="Stad" name="Stad"><br>
-
-        <label for="Land">Land</label>
-        <input type="text" id="Land" name="Land"><br>
-
-
-        BSN-nummer: <input type="number">
-
+    <form action="" method="POST">
+        <div>
+            <label for="Voornaam"> Voornaam</label>
+            <input type="text" id="Voornaam" name="Voornaam" pattern="[^0-9]*" required>
+        </div>
+        <div>
+            <label for="Achternaam"> Achternaam</label>
+            <input type="text" id="Achternaam" name="Achternaam" pattern="[^0-9]*" required>
+        </div>
+        <div>
+            <label for="gender">geslacht</label>
+            <div>
+                <label for="female">Vrouw</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="male">Man</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+        </div>
+        <div>
+            <label for="Aders"> Adres</label>
+            <input type="text" id="Adres" name="Adres" required>
+        </div>
+        <div>
+            <label for="Stad">Stad</label>
+            <input type="text" id="Stad" name="Stad" required>
+        </div>
+        <div>
+            <label for="Land">Land</label>
+            <input type="text" id="Land" name="Land" required>
+        </div>
+        <div>
+            BSN-nummer: <input type="text" maxlength="9" pattern="[0-9]*" required>
+        </div>
+        <div>
+            <label for="date">Datum van vertrek</label>
+            <input type="date" id="date" name="date" min="2022-09-17" required>
+        </div>
+        <div>
+            <label for="date">Datum van terugkomst</label>
+            <input type="date" id="date" name="date" min="2022-09-18" required>
+        </div>
+        <div>
+            <label for="number">Aantal reizergers</label>
+            <input type="number" id="number" name="number" min="1" max="4" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="wachtwoord">wachtwoord</label>
+            <input type="password" id="wachtwoord" name="wachtwoord"required>
+        </div>
+        <input type="submit" value="Submit">
     </form>
 
 </body>
