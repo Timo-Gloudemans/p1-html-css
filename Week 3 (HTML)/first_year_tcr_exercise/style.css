@@ -37,3 +37,27 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+body {
+  background-image: url("./img/hacker achtergrond.avif");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vh;
+  background-size: 100vw;
+}
+
+section {
+  width: 100vw;
+  height:100vh;
+
+}
+
+footer {
+  background: #00a8c7;
+  height:10vh ;
+}
+
+h2 {
+  font-weight: bold;
+}
