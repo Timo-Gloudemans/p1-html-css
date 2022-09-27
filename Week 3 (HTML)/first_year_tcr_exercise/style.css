@@ -20,6 +20,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0
 }
 nav ul {
   display: flex;
@@ -55,9 +57,36 @@ section {
 
 footer {
   background: #00a8c7;
-  height:10vh ;
-}
+padding: 20px;
+margin-top: 20px;
+color: #fff;
+text-align: center;
+left: 0;
+bottom: 0;
+width: 100%;
+position: fixed;
+  }
 
 h2 {
   font-weight: bold;
+  color: white;
+}
+p {
+  color: white;
+}
+
+body {
+  position: relative;
+  top:30rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+
+a {
+  color: white;
+  text
 }
