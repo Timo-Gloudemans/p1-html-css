@@ -44,7 +44,7 @@ body {
   background-image: url("./img/hacker achtergrond.avif");
   background-color: black;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: 100vh;
   background-size: 100vw;
 }
@@ -69,6 +69,7 @@ position: fixed;
 
 h2 {
   font-weight: bold;
+  text-align: center;
   color: white;
 }
 p {
@@ -77,6 +78,7 @@ p {
 
 body {
   position: relative;
+  height: 100vh;
   top:30rem;
 }
 
@@ -89,4 +91,14 @@ h1 {
 a {
   color: white;
   text
+}
+
+.html-logo {
+  float: left;  
+margin: 10rem;
+}
+
+.html-text{
+  float: right;
+  margin: 10rem;
 }
