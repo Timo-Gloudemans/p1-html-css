@@ -72,8 +72,16 @@ nav img {
   text-align: left;
 }
 
+.dropdown:hover a:hover {
+  background-color: #E9E9E9;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: blue;
 }
 
 main {
