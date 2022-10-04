@@ -116,9 +116,9 @@ footer {
   color: #fff;
   text-align: center;
   left: 0;
-  bottom: 0;
+  bottom: 100;
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 h2 {
