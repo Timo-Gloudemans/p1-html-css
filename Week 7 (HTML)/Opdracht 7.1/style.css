@@ -1,0 +1,80 @@
+html{
+    font-size: 62,5%;
+}
+
+nav{
+   padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.een {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+.twee {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+.drie {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+nav {
+    background-color: aqua;
+}
+.een {
+    background-color: blue;
+}
+.twee {
+    background-color: cornflowerblue;
+}
+.drie {
+    background-color: cadetblue;
+}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        display: flex; 
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    .een{
+        background-color: chartreuse;
+    }
+    .twee {
+        background-color: darksalmon ;
+    }
+    .drie {
+        background-color: darkorchid;
+    }
+    }
+
+    @media only screen and (max-width: 767px) {
+    nav {
+        background-color: lightgreen;
+    }
+    .een {
+        background-color: darkmagenta;
+    }
+    .twee {
+        background-color: deepskyblue;
+    }
+    .drie {
+        background-color: fuchsia;
+    }
+    }
