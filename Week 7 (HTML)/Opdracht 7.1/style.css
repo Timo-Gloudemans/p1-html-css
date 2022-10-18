@@ -1,30 +1,37 @@
+
 html{
     font-size: 62,5%;
 }
 
+.wit {
+    display: none;
+}
+
 nav{
    padding-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-bottom: 1rem;
+    
 }
 
 .een {
     padding-top: 3rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-bottom: 3rem;
+   
 }
 
 .twee {
     padding-top: 3rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-bottom: 3rem;
 }
 
 .drie {
     padding-top: 3rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-bottom: 3rem;
-}
+}   
 
 
 
@@ -36,6 +43,8 @@ nav {
 }
 .een {
     background-color: blue;
+
+    
 }
 .twee {
     background-color: cornflowerblue;
@@ -49,7 +58,7 @@ nav {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     nav {
-        display: flex; 
+       display: flex;
         justify-content: center;
         background-color: blueviolet;
     }
@@ -65,16 +74,36 @@ nav {
     }
 
     @media only screen and (max-width: 767px) {
-    nav {
+    
+    .wit {
+        background-color: white;
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+        margin-top: -23px;
+        margin-left: 500px;
+        margin-bottom: 50px;
+        z-index: 1;
+    }
+        nav {
         background-color: lightgreen;
     }
     .een {
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
         background-color: darkmagenta;
     }
     .twee {
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
         background-color: deepskyblue;
     }
     .drie {
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
         background-color: fuchsia;
     }
     }
