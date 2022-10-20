@@ -80,7 +80,8 @@ nav img {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown:hover .dropbtn {
